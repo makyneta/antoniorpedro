@@ -20,37 +20,50 @@
 
 <div class="cursor" id="cursor"></div>
 <div class="cursor-ring" id="cursorRing"></div>
-
-<!-- MOBILE MENU OVERLAY -->
-<div class="mobile-menu" id="mobileMenu">
+ 
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <div class="mobile-menu-bg"></div>
   <div class="mobile-menu-inner">
-    <a href="#sobre" class="mobile-link">Sobre</a>
-    <a href="#servicos" class="mobile-link">Serviços</a>
-    <a href="#transformacao" class="mobile-link">Transformação</a>
-    <a href="#contacto" class="mobile-link">Contacto</a>
-    <div class="mobile-menu-line"></div>
-    <a href="#contacto" class="mobile-menu-cta">Começa Agora</a>
-    <p class="mobile-menu-social">@antoniorpedro</p>
+ 
+    <div class="mobile-menu-header">
+      <a href="#" class="mobile-menu-logo menu-link">ANTÓNIO<span>.</span>PEDRO</a>
+      <button class="menu-close" id="menuClose" aria-label="Fechar menu">
+        <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+ 
+    <ul class="mobile-menu-links">
+      <li><a href="#sobre"     class="menu-link">Sobre</a></li>
+      <li><a href="#servicos"  class="menu-link">Serviços</a></li>
+      <li><a href="#transformacao" class="menu-link">Transformação</a></li>
+      <li><a href="#contacto"  class="menu-link">Contacto</a></li>
+    </ul>
+ 
+    <div class="mobile-menu-footer">
+      <a href="#contacto" class="mobile-menu-cta menu-link">Começa Agora</a>
+      <span class="mobile-menu-social">@antoniorpedro</span>
+    </div>
+ 
   </div>
 </div>
-
+ 
 <!-- NAV -->
-<nav id="mainNav">
+<nav id="navbar">
   <a href="#" class="nav-logo">ANTÓNIO<span>.</span>PEDRO</a>
-  <ul class="nav-links">
-    <li><a href="#sobre">Sobre</a></li>
-    <div class="nav-sep"></div>
-    <li><a href="#servicos">Serviços</a></li>
-    <div class="nav-sep"></div>
-    <li><a href="#transformacao">Transformação</a></li>
-    <div class="nav-sep"></div>
-    <li><a href="#contacto">Contacto</a></li>
-  </ul>
-  <a href="#contacto" class="nav-cta">Começa Agora</a>
-  <button class="nav-hamburger" id="hamburger" aria-label="Menu">
-    <span></span>
-    <span></span>
-    <span></span>
+ 
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#transformacao">Transformação</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <a href="#contacto" class="nav-cta">Começa Agora</a>
+  </div>
+ 
+  <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+    <span></span><span></span><span></span>
   </button>
 </nav>
 
@@ -251,7 +264,7 @@
 
 <!-- FOOTER -->
 <footer>
-  <!-- <div class="footer-top">
+  <div class="footer-top">
     <div class="footer-logo">ANTÓNIO<span>.</span>PEDRO</div>
     <ul class="footer-links">
       <li><a href="#sobre">Sobre</a></li>
@@ -259,11 +272,12 @@
       <li><a href="#transformacao">Transformação</a></li>
       <li><a href="https://instagram.com/antoniorpedro" target="_blank">Instagram</a></li>
     </ul>
-  </div> -->
+  </div>
   <div class="footer-bottom">
-    <p class="footer-copy">© <span id="footerYear"></span> António Pedro. Todos os direitos reservados.</p>
-    <p class="footer-made">Site desenvolvido por <a href="https://makyneta.github.io" target="_blank" rel="noopener">Makyneta Unipessoal, Lda.</a></p>
+    <p class="footer-copy">© 2026 António Pedro. Todos os direitos reservados.</p>
+    <p class="footer-made">Website desenvolvido por <a href="https://makyneta.github.io" target="_blank" rel="noopener">Makyneta Unipessoal, Lda.</a></p>
   </div>
 </footer>
+
 </body>
 </html>
