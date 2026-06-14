@@ -296,17 +296,13 @@
         <input type="text" id="formPhone" name="AcompanhamentoAntónioPedro_Instagram" placeholder="@antonio_rpedro">
       </div>
       <div class="form-group">
-        <label for="formService">Serviço</label>
-        <select id="formService" name="subject">
-          <option value="">Seleciona uma opção</option>
-          <option value="treino">Treino Personalizado</option>
-          <option value="alimentar">Plano Alimentar</option>
-          <option value="mentalidade">Mentalidade Vencedora</option>
-          <option value="completo">Programa Completo</option>
-        </select>
+        <label for="formSubject">Assunto</label>
+        <input type="text" id="formSubject" name="subject" placeholder="Em poucas palavras, o teu objetivo ou problema" required>
       </div>
       <div class="form-group">
         <label for="formMessage">Mensagem</label>
+        <textarea id="formMessage" name="mensagem" rows="5" placeholder="Conta-me tudo detalhadamente: o teu ponto de partida, objetivos, experiência com treino, lesões, disponibilidade... quanto mais detalhes, melhor consigo perceber o teu caso." required></textarea>
+      </div>
         <textarea id="formMessage" name="AcompanhamentoAntónioPedro_Mensagem" rows="4" placeholder="Conta-me um pouco sobre ti e os teus objetivos..." required></textarea>
       </div>
       <button type="submit" class="btn-primary form-submit">
