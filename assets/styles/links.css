@@ -4,10 +4,10 @@
     --gold: #C9A84C;
     --gold-light: #E8C96A;
     --gold-dim: rgba(201,168,76,0.12);
-    --black: #0A0A0A;
-    --dark: #111111;
-    --white: #F5F3EE;
-    --grey: #666;
+    --black: #EDE3D5;
+    --dark: #E4D8C6;
+    --white: #2D261F;
+    --grey: #9A8C7D;
   }
 
   html { scroll-behavior: smooth; }
@@ -175,7 +175,7 @@
     opacity: 0;
     animation: fadeUp 0.7s 0.55s forwards;
   }
-  .divider-line { flex: 1; height: 1px; background: rgba(255,255,255,0.06); }
+  .divider-line { flex: 1; height: 1px; background: rgba(10,10,10,0.06); }
   .divider-label {
     font-size: 9px;
     letter-spacing: 0.25em;
@@ -199,8 +199,8 @@
     padding: 0 20px;
     height: 62px;
     text-decoration: none;
-    background: rgba(255,255,255,0.03);
-    border: 1px solid rgba(255,255,255,0.06);
+    background: rgba(10,10,10,0.02);
+    border: 1px solid rgba(10,10,10,0.06);
     position: relative;
     overflow: hidden;
     opacity: 0;

@@ -6,60 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="António Pedro — Guarda-redes profissional e online coach. Treino personalizado, plano alimentar e mentalidade vencedora para transformar o teu corpo e a tua vida.">
     <meta name="author" content="Makyneta Unipessoal, Lda.">
+    <meta name="keywords" content="António Pedro, online coach, personal trainer, plano alimentar, fitness, bodybuilding, guarda-redes">
+    <!-- Open Graph -->
+    <meta property="og:title" content="António Pedro | Online Coach">
+    <meta property="og:description" content="Guarda-redes profissional &amp; Online Coach. Transforma o teu corpo e a tua mente com treino personalizado, plano alimentar e mentalidade vencedora.">
+    <meta property="og:image" content="https://antoniorpedro.github.io/assets/images/ui/profile.jpg">
+    <meta property="og:url" content="https://antoniorpedro.github.io">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
     <!-- Styles -->
     <link rel="stylesheet" href="assets/styles/main.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">    <!-- Scripts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
     <!-- Script -->
     <script src="assets/scripts/main.js" defer></script>
     <!-- Title_Favicon -->
     <title>António Pedro | Online Coach</title>
-    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+    <link rel="icon" href="assets/images/ui/favicon.png" type="image/png">
 </head>
 <body>
 
-<div class="cursor" id="cursor"></div>
-<div class="cursor-ring" id="cursorRing"></div>
- 
-<!-- MOBILE MENU -->
+  <!-- MOBILE MENU -->
 <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
-  <div class="mobile-menu-bg"></div>
-  <div class="mobile-menu-inner">
- 
-    <div class="mobile-menu-header">
-      <a href="#" class="mobile-menu-logo menu-link">ANTÓNIO<span>.</span>PEDRO</a>
-      <button class="menu-close" id="menuClose" aria-label="Fechar menu">
-        <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-      </button>
-    </div>
- 
-    <ul class="mobile-menu-links">
-      <li><a href="#sobre"     class="menu-link">Sobre</a></li>
-      <li><a href="#servicos"  class="menu-link">Serviços</a></li>
-      <li><a href="#transformacao" class="menu-link">Transformação</a></li>
-      <li><a href="#contacto"  class="menu-link">Contacto</a></li>
-    </ul>
- 
-    <div class="mobile-menu-footer">
-      <a href="#contacto" class="mobile-menu-cta menu-link">Começa Agora</a>
-      <span class="mobile-menu-social">@antoniorpedro</span>
-    </div>
- 
+  <ul class="mobile-menu-links">
+    <li><a href="#sobre"     class="menu-link">Sobre</a></li>
+    <li><a href="#servicos"  class="menu-link">Serviços</a></li>
+    <li><a href="#transformacao" class="menu-link">Transformação</a></li>
+  </ul>
+  <div class="mobile-menu-footer">
+    <a href="#formulario" class="mobile-menu-cta menu-link">Começa Agora</a>
   </div>
 </div>
  
 <!-- NAV -->
 <nav id="navbar">
-  <a href="#" class="nav-logo">ANTÓNIO<span>.</span>PEDRO</a>
+  <a href="#" class="nav-logo">
+    <img src="assets/images/ui/header-logo.png" alt="António Pedro">
+  </a>
  
   <div class="nav-right">
     <ul class="nav-links">
       <li><a href="#sobre">Sobre</a></li>
       <li><a href="#servicos">Serviços</a></li>
       <li><a href="#transformacao">Transformação</a></li>
-      <li><a href="#contacto">Contacto</a></li>
     </ul>
-    <a href="#contacto" class="nav-cta">Começa Agora</a>
+    <a href="#formulario" class="nav-cta">Começa Agora</a>
   </div>
  
   <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
@@ -69,38 +62,18 @@
 
 <!-- HERO -->
 <section class="hero" id="inicio">
-  <div class="hero-left">
-    <p class="hero-tag">Goalkeeper · Online Coach · @antoniorpedro</p>
-    <h1 class="hero-title">ANTÓNIO<br><span class="gold">PEDRO</span></h1>
-    <p class="hero-subtitle">Jogador de Futebol &amp; Online Coach</p>
-    <div class="hero-divider"></div>
-    <p class="hero-desc">Treino personalizado. Plano alimentar. Mentalidade vencedora. Torna-te na melhor versão de ti.</p>
-    <div class="hero-cta-row">
-      <a href="#contacto" class="btn-primary">Começa a Transformação</a>
-      <a href="#servicos" class="btn-ghost">Ver Serviços</a>
-    </div>
-  </div>
-  <div class="hero-right">
-    <img src="assets/images/profile.jpg" alt="António Pedro" class="hero-img-main">
-    <div class="hero-overlay"></div>
-    <div class="hero-stats">
-      <div class="stat">
-        <div class="stat-num">100%</div>
-        <div class="stat-label">Dedicação</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num">3</div>
-        <div class="stat-label">Pilares</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num">∞</div>
-        <div class="stat-label">Resultados</div>
-      </div>
-    </div>
-  </div>
-  <div class="hero-scroll">
-    <span>Scroll</span>
-    <div class="scroll-line"></div>
+  <picture class="hero-bg">
+    <source srcset="assets/images/ui/wallpaper-phone.png" media="(max-width: 768px)">
+    <img src="assets/images/ui/wallpaper-desktop.png" alt="" aria-hidden="true">
+  </picture>
+  <div class="hero-content">
+    <h1 class="hero-name">
+      <span>ANTÓNIO</span>
+      <span class="gold">PEDRO</span>
+    </h1>
+    <p class="hero-role">Online Coach</p>
+    <p class="hero-desc">Treino personalizado, nutrição e mentalidade para transformares o teu corpo.</p>
+    <a href="#formulario" class="btn-primary">Começar Transformação</a>
   </div>
 </section>
 
@@ -127,23 +100,16 @@
 <!-- ABOUT -->
 <section class="section" id="sobre">
   <div class="about-grid">
-    <div class="about-img-wrap reveal">
-      <img src="assets/images/acm_4-3.jpg" alt="António Pedro" class="about-img">
-      <img src="assets/images/espelho-braco.png" alt="António Pedro — Físico" class="about-img-accent">
+    <div class="about-img-wrap reveal-left">
+      <img src="assets/images/antonio-pedro/acm_4-3.jpg" alt="António Pedro" class="about-img">
+      <img src="assets/images/antonio-pedro/espelho-braco.png" alt="António Pedro — Físico" class="about-img-accent">
     </div>
-    <div class="about-content reveal">
+    <div class="about-content reveal-right">
       <p class="section-label">Sobre Mim</p>
       <h2 class="section-title">ATLETA.<br>COACH.<br>AMBIÇÃO.</h2>
-      <p class="about-body" style="text-align: justify;">
-        Chamo-me António Pedro, tenho 17 anos e há alguns meses decidi começar a mostrar a minha jornada nas redes sociais. A
-        ideia é partilhar o meu percurso no fitness/bodybuilding e um bocado da minha experiência de alguém que já fez muita
-        asneira e aprendeu com isso.<br>
-        Hoje em dia sou completamente viciado em estudar sobre isto. Sei que não sei tudo, nem nunca vou saber, mas o importante
-        para mim é continuar a evoluir.<br>
-        Em relação a objetivos, não tenho nada muito definido. Competir? Pode ser, é uma hipótese, mas é só uma entre muitas e
-        para isso tinha de estar tudo alinhado.<br>
-        Comecei nas redes sociais porque no futuro gostava de ter o meu próprio acompanhamento e ajudar pessoas a não passarem
-        pelo que eu passei, muito por culpa da desinformação, tanto a nível físico como mental
+      <p class="about-body">
+        Chamo-me António Pedro, tenho 17 anos e há alguns meses decidi mostrar a minha jornada no fitness e bodybuilding. Já fiz muita asneira e aprendi com isso — hoje sou viciado em estudar esta área.<br><br>
+        O meu objetivo é ajudar quem não quer passar pelo que passei: desinformação que custa tempo, saúde e progresso. Acompanhamento personalizado, baseado na ciência e na experiência real.
       </p>
       <div class="about-values">
         <div class="value-item">
@@ -174,38 +140,51 @@
       <p class="section-label">O Que Ofereço</p>
       <h2 class="section-title">SERVIÇOS<br>ONLINE</h2>
     </div>
-    <p class="reveal" style="max-width:280px; font-size:14px; line-height:1.7; color:rgba(245,243,238,0.45);">
+    <p class="reveal" style="max-width:280px; font-size:14px; line-height:1.7; color:var(--text-muted);">
       Tudo o que precisas para transformares o teu corpo e a tua mentalidade, de qualquer lugar do mundo.
     </p>
   </div>
   <div class="services-grid">
     <div class="service-card reveal">
       <span class="service-num">01</span>
-      <span class="service-icon">🏋️</span>
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M6.5 6.5L17.5 17.5M17.5 6.5L6.5 17.5"/>
+          <circle cx="12" cy="12" r="9"/>
+        </svg>
+      </div>
       <h3 class="service-name">Treino Personalizado</h3>
       <p class="service-desc">Programa de treino 100% adaptado ao teu corpo, objetivos e disponibilidade. Semana a semana, evoluímos juntos.</p>
-      <a href="#contacto" class="service-link">Saber mais →</a>
+      <a href="#formulario" class="service-link">Saber mais →</a>
     </div>
     <div class="service-card reveal">
       <span class="service-num">02</span>
-      <span class="service-icon">🥗</span>
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+        </svg>
+      </div>
       <h3 class="service-name">Plano Alimentar</h3>
       <p class="service-desc">Nutrição estratégica para maximizar a tua performance, recuperação e composição corporal. Sem dietas impossíveis.</p>
-      <a href="#contacto" class="service-link">Saber mais →</a>
+      <a href="#formulario" class="service-link">Saber mais →</a>
     </div>
-    <!-- <div class="service-card reveal">
+    <div class="service-card reveal">
       <span class="service-num">03</span>
-      <span class="service-icon">🧠</span>
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2z"/>
+        </svg>
+      </div>
       <h3 class="service-name">Mentalidade Vencedora</h3>
       <p class="service-desc">A diferença entre bom e extraordinário está na cabeça. Trabalho contigo na disciplina, foco e resiliência mental.</p>
-      <a href="#contacto" class="service-link">Saber mais →</a>
-    </div> -->
+      <a href="#formulario" class="service-link">Saber mais →</a>
+    </div>
   </div>
 </section>
 
 <!-- TRANSFORMATION -->
-<section id="transformacao" style="padding: 120px 48px; background: var(--black);">
-  <div class="transform-section" style="padding:0; max-width:1200px; margin:0 auto;">
+<section id="transformacao">
+  <div class="transform-section">
     <div class="reveal">
       <p class="section-label">O Processo</p>
       <h2 class="section-title">A TUA<br>TRANSFORMAÇÃO</h2>
@@ -241,12 +220,37 @@
           </div>
         </div>
       </div>
-      <div class="transform-visual reveal">
-        <img src="assets/images/evolucao_body_antonio.jpg" alt="Transformação" class="transform-img tall">
-        <img src="assets/images/espelho-braco.png" alt="António Pedro" class="transform-img">
-        <img src="assets/images/acm.png" alt="Football" class="transform-img">
+      <div class="transform-visual reveal-right">
+        <img src="assets/images/antonio-pedro/evolucao_body_antonio.jpg" alt="Transformação" class="transform-img tall">
+        <img src="assets/images/antonio-pedro/espelho-braco.png" alt="António Pedro" class="transform-img">
+        <img src="assets/images/antonio-pedro/acm.png" alt="Football" class="transform-img">
       </div>
     </div>
+  </div>
+</section>
+
+<!-- YOUTUBE -->
+<section class="youtube-section">
+  <div class="reveal" style="max-width:1200px;margin:0 auto 60px;">
+    <p class="section-label">YouTube</p>
+    <h2 class="section-title">VÍDEOS<br>RECENTES</h2>
+  </div>
+  <div class="youtube-grid">
+    <a href="https://www.youtube.com/watch?v=Ojsoqy74lZo" target="_blank" class="youtube-card reveal">
+      <div class="youtube-thumb" style="background-image:url(assets/images/youtube-videos/a-minha-experiencia-na-viagem-de-finalistas-a-melhor-semana-da-minha-vida.jpg);">
+        <div class="youtube-play"><i class="fas fa-play"></i></div>
+      </div>
+    </a>
+    <a href="https://www.youtube.com/watch?v=GmGSbttGtG0" target="_blank" class="youtube-card reveal">
+      <div class="youtube-thumb" style="background-image:url(assets/images/youtube-videos/um-dia-na-minha-vida-estudante-jogador-de-futebol-e-fitness.jpg);">
+        <div class="youtube-play"><i class="fas fa-play"></i></div>
+      </div>
+    </a>
+    <a href="https://www.youtube.com/watch?v=Gl6QBqNVxbU" target="_blank" class="youtube-card reveal">
+      <div class="youtube-thumb" style="background-image:url(assets/images/youtube-videos/aprende-a-treinar-de-uma-vez-por-todas-full-body-na-pratica-ciencia.jpg);">
+        <div class="youtube-play"><i class="fas fa-play"></i></div>
+      </div>
+    </a>
   </div>
 </section>
 
@@ -256,31 +260,96 @@
   <p class="quote-sub">— António Pedro</p>
 </div>
 
-<!-- CTA -->
-<section class="cta-section" id="contacto">
-  <div class="cta-bg-text">AP</div>
-  <div class="cta-content">
-    <p class="section-label" style="justify-content:center;display:flex;">Começa Hoje</p>
-    <h2 class="cta-title">TORNA-TE NA<br><span>MELHOR VERSÃO</span><br>DE TI</h2>
-    <p class="cta-body">Estás pronto para dar o próximo passo? Envia-me uma mensagem e vamos começar a construir a tua transformação.</p>
-    <div class="cta-btn-group">
-      <a href="https://instagram.com/antoniorpedro" target="_blank" class="btn-primary">Fala Comigo no Instagram</a>
+<!-- CONTACT FORM -->
+<section class="form-section" id="formulario">
+  <div class="form-container">
+    <div class="form-left reveal-left">
+      <p class="section-label">Fala Comigo</p>
+      <h2 class="section-title">PEDE O TEU<br><span class="gold">PLANO</span></h2>
+      <p class="form-desc">Preenche o formulário e entraremos em contacto contigo para desenhar o plano ideal para os teus objetivos.</p>
+      <div class="form-benefits">
+        <div class="form-benefit">
+          <svg viewBox="0 0 20 20" fill="none" stroke="var(--gold)" stroke-width="2"><polyline points="4 10 8 14 16 6"/></svg>
+          <span>Resposta em 24h</span>
+        </div>
+        <div class="form-benefit">
+          <svg viewBox="0 0 20 20" fill="none" stroke="var(--gold)" stroke-width="2"><polyline points="4 10 8 14 16 6"/></svg>
+          <span>Plano 100% personalizado</span>
+        </div>
+        <div class="form-benefit">
+          <svg viewBox="0 0 20 20" fill="none" stroke="var(--gold)" stroke-width="2"><polyline points="4 10 8 14 16 6"/></svg>
+          <span>Sem compromisso</span>
+        </div>
+      </div>
     </div>
+    <form class="form-right reveal-right" id="contactForm" novalidate>
+      <div class="form-group">
+        <label for="formName">Nome</label>
+        <input type="text" id="formName" name="nome" placeholder="O teu nome" required>
+      </div>
+      <div class="form-group">
+        <label for="formEmail">Email</label>
+        <input type="email" id="formEmail" name="email" placeholder="O teu email" required>
+      </div>
+      <div class="form-group">
+        <label for="formPhone">Telemóvel (opcional)</label>
+        <input type="tel" id="formPhone" name="telemovel" placeholder="Telemóvel">
+      </div>
+      <div class="form-group">
+        <label for="formService">Serviço</label>
+        <select id="formService" name="servico">
+          <option value="">Seleciona uma opção</option>
+          <option value="treino">Treino Personalizado</option>
+          <option value="alimentar">Plano Alimentar</option>
+          <option value="mentalidade">Mentalidade Vencedora</option>
+          <option value="completo">Programa Completo</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="formMessage">Mensagem</label>
+        <textarea id="formMessage" name="mensagem" rows="4" placeholder="Conta-me um pouco sobre ti e os teus objetivos..." required></textarea>
+      </div>
+      <button type="submit" class="btn-primary form-submit">
+        <span class="form-submit-text">Enviar Pedido</span>
+        <span class="form-submit-loading" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10" stroke-dasharray="31.4 31.4" stroke-linecap="round"/></svg>
+        </span>
+      </button>
+      <p class="form-note">Ao enviar, aceitas que os teus dados sejam utilizados para resposta ao teu pedido.</p>
+      <div class="form-success hidden">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        <h3>Pedido Enviado!</h3>
+        <p>Recebemos a tua mensagem. Entraremos em contacto brevemente.</p>
+      </div>
+    </form>
   </div>
 </section>
 
+<!-- SOCIAL -->
+<section class="social-section" id="contacto">
+  <div class="social-inner">
+    <a href="https://instagram.com/antoniorpedro" target="_blank" class="social-link" aria-label="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://tiktok.com/@antonio_rpedro" target="_blank" class="social-link" aria-label="TikTok">
+      <i class="fab fa-tiktok"></i>
+    </a>
+    <a href="https://youtube.com/@antonio_rpedro" target="_blank" class="social-link" aria-label="YouTube">
+      <i class="fab fa-youtube"></i>
+    </a>
+  </div>
+</section>
+
+<!-- BACK TO TOP -->
+<button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <polyline points="18 15 12 9 6 15"/>
+  </svg>
+</button>
+
 <!-- FOOTER -->
 <footer>
-  <div class="footer-top">
-    <div class="footer-logo">ANTÓNIO<span>.</span>PEDRO</div>
-    <ul class="footer-links">
-      <li><a href="#sobre">Sobre</a></li>
-      <li><a href="#servicos">Serviços</a></li>
-      <li><a href="#transformacao">Transformação</a></li>
-      <li><a href="https://instagram.com/antoniorpedro" target="_blank">Instagram</a></li>
-    </ul>
-  </div>
-  <div class="footer-bottom">
+  <div class="footer-inner">
     <p class="footer-copy">© 2026 António Pedro. Todos os direitos reservados.</p>
     <p class="footer-made">Website desenvolvido por <a href="https://makyneta.github.io" target="_blank" rel="noopener">Makyneta Unipessoal, Lda.</a></p>
   </div>
