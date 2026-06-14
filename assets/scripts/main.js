@@ -59,7 +59,7 @@
       formData.forEach((value, key) => { data[key] = value; });
 
       try {
-        const response = await fetch('https://formspree.io/f/xpzvkjap', {
+        const response = await fetch('https://formspree.io/f/xvgbagja', {
           method: 'POST',
           body: JSON.stringify(data),
           headers: { 'Content-Type': 'application/json' }
